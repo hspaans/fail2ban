@@ -1,0 +1,1 @@
+filter.d/apache-shellshock.conf		etc/fail2ban/filter.d

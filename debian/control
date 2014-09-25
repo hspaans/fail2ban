@@ -1,0 +1,14 @@
+Source: fail2ban-shellshock
+Section: net
+Priority: optional
+Maintainer: Hans Spaans <hans@dailystuff.nl>
+Build-Depends:  debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/hspaans/fail2ban-shellshock
+
+Package: fail2ban-shellshock
+Architecture: all
+Depends: ${misc:Depends}, fail2ban, apache | apache2
+Description: Fail2Ban additional filter for shellshock
+ Fail2Ban additional filter for shellshock. Currently only for Apache.
+
